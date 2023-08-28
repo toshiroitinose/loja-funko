@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+   .marvel {
+      background-image: url(../images/captainmarvelheader_Mobile.jpg);
+      flex-wrap: wrap;
+
+   }
+
+   .capitain {
+      display: none;
+
+   }
+
+   .catalogo {
+      margin: 0 auto;
+      flex-wrap: wrap;
+      position: center;
+      padding-left: 130px;
+   }
+
+   .catalogo::after {
+      margin-left: 120px;
+      width: 180px;
+   }
+
+   .menu {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin-left: 10px;
+
+   }
+
+   .lista {
+      display: flex;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+   }
+
+   li {
+      margin-left: 4 px;
+   }
+
+   .menu ul {
+      margin-left: 0;
+      padding-top: 110px;
+      padding-left: 0;
+   }
+
+   .logo {
+      margin: 0 auto;
+      margin-top: 15px;
+   }
+
+   .lista li a {
+      font-weight: bold;
+      letter-spacing: 2px;
+   }
+
+   .card {
+      margin: 0 auto;
+
+   }
+
+   #cards {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding-top: 70px;
+   }
+
+}

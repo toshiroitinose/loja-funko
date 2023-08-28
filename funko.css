@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.spiderman {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/spidermanheader.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+li {
+    margin-left: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    position: relative;
+
+    padding: 0;
+    margin-top: 50px;
+    color: aliceblue;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.menu li a {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.funko {
+    position: absolute;
+    margin-top: 200px;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.thor {
+
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/thor_header.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+
+.quem-somos {
+    color: aliceblue;
+    position: relative;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.quem-somos::after {
+    content: "";
+    display: flex;
+    height: 4px;
+    width: 150px;
+    background: aliceblue;
+    position: absolute;
+    bottom: -9px;
+
+
+}
+
+.texto {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    font-size: 1.8em;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.texto p {
+    width: 400px;
+}
+
+
+.goku {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.text {
+    display: flex;
+    justify-content: row;
+    width: 100%;
+}
+
+.text p {
+    width: 400px;
+}
+
+.button {
+
+    background: linear-gradient(#fe7467, #fc3836);
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.button a {
+    display: flex;
+    justify-content: center;
+}
+
+.style::after {
+    content: "  ";
+    height: 4px;
+    width: 90%;
+    background: #fe7467;
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    margin-left: 5px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.style:hover::after {
+    opacity: 1;
+}
+
+.catalogo::after {
+    content: "  ";
+    height: 5px;
+    width: 10%;
+    background: #fe7467;
+    position: absolute;
+
+    bottom: 6px;
+    margin-top: 10px;
+
+}
+
+.catalogo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgb(53, 50, 30);
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.paragrafo p {
+    padding-top: 30px;
+    width: 300px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.paragrafo {
+    margin: 0 auto;
+    padding-left: 200px;
+    letter-spacing: 2px;
+
+}

@@ -1,0 +1,45 @@
+@media (max-width: 650px){
+
+.robin {
+        background-image: url(..//images/contatoheader_mobile.jpg);
+    }
+
+.title {
+    display: none;
+}
+.logo {
+    padding-left: 120px;
+}
+.menu {
+    padding-left: 50px;
+    
+}
+.menu li a {
+    letter-spacing: 2px;
+}
+.titulo::after {
+    background: #fc3836;
+
+}
+.button{
+    width: 50%;
+}
+form{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.contato{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.texto{
+    width: 100%;
+}
+p{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+}

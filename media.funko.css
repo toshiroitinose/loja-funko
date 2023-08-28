@@ -1,0 +1,88 @@
+@media (max-width: 700px) {
+  .logo {
+    display: flex;
+    margin: 0 auto;
+
+
+  }
+
+  .menu {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+
+  }
+
+  .title {
+    padding-left: 5px;
+    margin-left: 0;
+    width: 100%;
+    position: absolute;
+  }
+
+
+  .funko {
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .spiderman {
+    background-image: url(../images/spidermanheader_mobile.jpg);
+    width: 100%;
+  }
+
+  .goku p {
+    padding-left: 120px;
+
+  }
+
+  .button {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .texto {
+    text-align: center;
+
+  }
+
+  .bonecos {
+    flex-wrap: wrap;
+  }
+
+  .bonecos {
+    position: absolute;
+    padding-top: 600px;
+    width: 100%;
+
+  }
+
+  .paragrafo {
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .paragrafo p {
+    margin: 0 auto;
+    padding-left: 55px;
+  }
+
+  .goku {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text {
+    margin: 0;
+    width: 0;
+  }
+}
